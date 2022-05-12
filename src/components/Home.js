@@ -3,7 +3,7 @@ import Arrow from '../images/arrow.png';
 
 const Home = () => {
   const scroll = () => {
-    const about = document.querySelector(".about-container");
+    const about = document.querySelector(".about");
     about.scrollIntoView({ behavior: "smooth" });
   };
 

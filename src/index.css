@@ -83,7 +83,7 @@ button {
 .navbar li {
     float: right;
     padding: 20px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
 }
 .navbar button {
@@ -96,7 +96,6 @@ button {
     width: 65px;
     height: 65px;
     padding-left: 20px;
-    padding-top: 5px;
     transition: all 100ms ease-in-out;
 }
 .navbar img:hover {
@@ -115,14 +114,14 @@ button {
 .home h1 {
     font-family: 'Raleway', 'sans-serif';
     font-size: 2.7em;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
 .home p {
     font-size: 1.3em;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     margin-bottom: 80px;
 }
 .home #avatar {
@@ -149,19 +148,19 @@ button {
 }
 
 /* About Styles */
-.about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about {
     background-color: #ad67ea;
     margin-top: 220px;
-    min-height: 1000px;
-    text-align: center;
     width: 100vw;
 }
-.about {
-    margin-top: 100px;
-    max-width: 1400px;
+.about .about-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 650px;
 }
 .about h2 {
     color: #ffffff;
@@ -169,14 +168,26 @@ button {
     font-size: 2.2em;
     font-weight: bolder;
     letter-spacing: 2px;
-    margin-bottom: 30px;
+    padding-top: 60px;
 }
 .about p {
     color: #ffffff;
     font-family: 'Roboto', 'sans-serif';
     font-size: 1.3em;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+.about em {
+    font-style: italic;
+}
+.about strong {
+    color: #000000;
+    font-style: italic;
+    font-weight: 300;
+}
+.about .list {
+    text-align: left;
+    padding-bottom: 60px;
 }
 
 /* Mobile Styles */

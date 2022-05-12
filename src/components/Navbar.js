@@ -6,7 +6,7 @@ const Navbar = () => {
     home.scrollIntoView({ behavior: "smooth" });
   };
   const scrollAbout = () => {
-    const about = document.querySelector(".about-container");
+    const about = document.querySelector(".about");
     about.scrollIntoView({ behavior: "smooth" });
   };
   const scrollWork = () => {
