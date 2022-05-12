@@ -1,6 +1,8 @@
 const Work = () => {
   return (
-    <p>Work Placeholder</p>
+    <div className="work">
+      <p>Work Placeholder</p>
+    </div>
   );
 }
  
