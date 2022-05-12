@@ -98,7 +98,6 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
     text-align: center;
     margin-top: 80px;
     width: 100%;
@@ -108,21 +107,44 @@ table {
     font-size: 2.7em;
     font-weight: bolder;
     letter-spacing: 2px;
+    margin-bottom: 30px;
 }
 .home p {
     font-size: 1.3em;
     font-weight: 100;
     letter-spacing: 2px;
+    margin-bottom: 80px;
 }
-.home img {
+.home #avatar {
     width: 250px;
     height: 250px;
+    margin-bottom: 80px;
+}
+.home a {
+    text-decoration: none;
+}
+.home .scroll-action {
+    display: flex;
+    transition: all 200ms ease-in-out;
+}
+.home .scroll-action:hover {
+    transform: translate(0px, 8px);
+}
+.home #arrow {
+    width: 60px;
+}
+.home h2 {
+    font-size: 2.7rem;
+    font-style: italic;
+    color: #ad67ea;
+    padding-top: 8px;
+    padding-left: 4px;
 }
 
 /* About Styles */
 .about {
     background-color: #ad67ea;
-    margin-top: 400px;
+    margin-top: 200px;
     width: 100vw;
 }
 
