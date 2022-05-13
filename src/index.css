@@ -345,7 +345,7 @@ button {
 /* ************************************************************************** */
 
 /* Touchscreen Pointer Fix */
-@media (hover: none) {
+@media (pointer: coarse) {
     .project-description {
         gap: 15px;
         padding: 20px;
