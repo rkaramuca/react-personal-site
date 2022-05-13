@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9be1eef.css",
+    "main.js": "/static/js/main.ee4cef78.js",
+    "static/media/photo-gallery.png": "/static/media/photo-gallery.a712ff7d92e351033205.png",
+    "static/media/alumni-map.png": "/static/media/alumni-map.8f08b89149e5bb1113a1.png",
+    "static/media/nim.png": "/static/media/nim.61ea365177a277214471.png",
+    "static/media/avatar.png": "/static/media/avatar.e64855274010ae8d21b2.png",
+    "static/media/arrow.png": "/static/media/arrow.f3b5ea269612f87b39ea.png",
+    "index.html": "/index.html",
+    "main.f9be1eef.css.map": "/static/css/main.f9be1eef.css.map",
+    "main.ee4cef78.js.map": "/static/js/main.ee4cef78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9be1eef.css",
+    "static/js/main.ee4cef78.js"
+  ]
+}
