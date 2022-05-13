@@ -1,6 +1,13 @@
 const Footer = () => {
+  const scrollHome = () => {
+    const home = document.querySelector("html");
+    home.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <p>Footer Placeholder</p>
+    <div className="footer">
+      <p>Ronald Karamuca, 2022 <button onClick={ scrollHome }>(<em>back to top</em>)</button></p>
+    </div>
   );
 }
  

@@ -2,7 +2,7 @@ import logo from '../images/logo_200.jpg';
 
 const Navbar = () => {
   const scrollHome = () => {
-    const home = document.querySelector(".home");
+    const home = document.querySelector("html");
     home.scrollIntoView({ behavior: "smooth" });
   };
   const scrollAbout = () => {
